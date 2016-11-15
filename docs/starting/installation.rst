@@ -1,9 +1,9 @@
 Properly Installing Python
 ==========================
 
-There's a good chance that you already have Python on your operating system.
+De seguro ya tienes Python en tu sistema operativo.
 
-If so, you do not need to install or configure anything else to use Python.
+Si es así, no necesitas instalar o configurar nada más para usar Python.
 Having said that, I would strongly recommend that you install the tools and
 libraries described in the guides below before you start building Python
 applications for real-world use. In particular, you should always install

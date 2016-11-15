@@ -16,7 +16,7 @@ y uso de Python diariamente.
 
 Esta guía es **obstinada** en la manera que casi todo, pero no del todo, es *diferente*
 a la documentación oficial de Python. No encontrarás una lista de cada framwork web
-disponible aquí. Más bien, encontrarás una lista concissa de opciones altamente
+disponible aquí. Más bien, encontrarás una lista concisa de opciones altamente
 recomendadas.
 
 
