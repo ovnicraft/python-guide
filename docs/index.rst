@@ -20,6 +20,6 @@ disponible aquí. Más bien, encontrarás una lista concisa de opciones altament
 recomendadas.
 
 
-Vamos a empezar! Pero primeroxs, vamos a asegurarnos que sabes donde estas.
+Vamos a empezar! Pero primero, vamos a asegurarnos que sabes donde estas.
 
 .. include:: contents.rst.inc

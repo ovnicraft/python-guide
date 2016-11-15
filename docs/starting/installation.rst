@@ -1,5 +1,5 @@
-Properly Installing Python
-==========================
+Instalando Python Correctamente
+===============================
 
 De seguro ya tienes Python en tu sistema operativo.
 
@@ -10,18 +10,12 @@ applications for real-world use. In particular, you should always install
 Setuptools, Pip, and Virtualenv — they make it much easier for you to use
 other third-party Python libraries.
 
-Installation Guides
--------------------
+Guías de Instalación
+--------------------
 
-These guides go over the proper installation of :ref:`Python <which-python>`
-for development purposes, as well as setuptools, pip and virtualenv.
+Esta guía trata sobre la correcta instalación de :ref:`Python 2.7 <which-python>`
+para propósitos de desarrollo, tanto como instalación de setuptools, pip, y virtualenv.
 
-- :ref:`Python 3 on MacOS <install3-osx>`.
-- :ref:`Python 3 on Windows <install3-windows>`.
-- :ref:`Python 3 on Linux <install3-linux>`.
-
---------------------------------
-
-- :ref:`Python 2 on MacOS <install-osx>`.
-- :ref:`Python 2 on Microsoft Windows <install-windows>`.
-- :ref:`Python 2 on Linux <install-linux>`.
+- :ref:`Mac OS X <install-osx>`.
+- :ref:`Microsoft Windows <install-windows>`.
+- :ref:`Linux <install-linux>`.

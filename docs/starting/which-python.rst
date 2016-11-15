@@ -126,12 +126,12 @@ con una instalación de .NET Common Language Runtime (CLR).  Es un enfoque
 inverso al tomado por IronPython (ver antes), lo que es es más
 complementario que competitivo.
 
-In conjunction with Mono, pythonnet enables native Python
-installations on non-Windows operating systems, such as OS X and
-Linux, to operate within the .NET framework.  It can be run in
-addition to IronPython without conflict.
+Junto con Mono, pythonnet activa soporte nativo de instalaciones de Python
+en sistemas operativos no-Windows, tales como OS X y
+Linux, para operar con el framework .NET.  Puede ser ejecutado junto con
+IronPython sin conflicto.
 
-Pythonnet supports from Python 2.6 up to Python 3.5. [#pythonnet_ver1]_ [#pythonnet_ver2]_
+Pythonnet soporta desde Python 2.6 hasta Python 3.5. [#pythonnet_ver1]_ [#pythonnet_ver2]_
 
 .. [#pypy_ver] http://pypy.org/compat.html
 
