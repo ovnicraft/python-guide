@@ -1,7 +1,7 @@
 .. _installation:
 
-Properly Installing Python
-==========================
+Instalando Python Correctamente
+===============================
 
 .. image:: https://farm5.staticflickr.com/4303/36137232412_fdcb0f84eb_k_d.jpg
 
@@ -18,11 +18,11 @@ other third-party Python libraries.
   —*Kenneth Reitz*
 
 
-Installation Guides
--------------------
+Guías de Instalación
+--------------------
 
-These guides go over the proper installation of :ref:`Python <which-python>`
-for development purposes, as well as setuptools, pip and virtualenv.
+Esta guía trata sobre la correcta instalación de :ref:`Python <which-python>`
+para propósitos de desarrollo, tanto como instalación de setuptools, pip y virtualenv.
 
   Python 3 Installation Guides
   ////////////////////////////
