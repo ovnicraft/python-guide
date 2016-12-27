@@ -1,14 +1,14 @@
-Structuring Your Project
-========================
+Estructurando tu Proyecto
+=========================
 
 .. image:: https://farm5.staticflickr.com/4203/33907151224_0574e7dfc2_k_d.jpg
 
-By "structure" we mean the decisions you make concerning
-how your project best meets its objective. We need to consider how to
-best leverage Python's features to create clean, effective code.
-In practical terms, "structure" means making clean code whose logic and
-dependencies are clear as well as how the files and folders are organized
-in the filesystem.
+Por "estructura" queremos decir las desiciones que conciernen en
+como tu proyecto cumple sus objetivos.. Necesitamos considerar como
+aprovechar mejor los atributos de Python para crear código efectivo y limpio.
+En términos prácticos, "estructura" significa hacer código limpio con lógica y dependencia
+son limpias tan bien como los archivos y directorios estan organizados
+en el sistema de archivos.
 
 Which functions should go into which modules? How does data flow through
 the project? What features and functions can be grouped together and
@@ -393,9 +393,9 @@ folder named :file:`my` which is not the case. There is an
 dot notation should be used in the Python docs.
 
 If you'd like you could name your module :file:`my_spam.py`, but even our
-friend the underscore should not be seen often in module names. However, using other 
-characters (spaces or hyphens) in module names will prevent importing 
-(- is the subtract operator), so try to keep module names short so there is 
+friend the underscore should not be seen often in module names. However, using other
+characters (spaces or hyphens) in module names will prevent importing
+(- is the subtract operator), so try to keep module names short so there is
 no need to separate words. And, most of all, don't namespace with underscores, use submodules instead.
 
 .. code-block:: python
@@ -797,7 +797,7 @@ its parts, it is much more efficient to accumulate the parts in a list,
 which is mutable, and then glue ('join') the parts together when the
 full string is needed. One thing to notice, however, is that list
 comprehensions are better and faster than constructing a list in a loop
-with calls to ``append()``. 
+with calls to ``append()``.
 
 One other option is using the map function, which can 'map' a function
 ('str') to an iterable ('range(20)'). This results in a map object,
@@ -831,14 +831,14 @@ The map function can be even faster than a list comprehension in some cases.
     # create a concatenated string from 0 to 19 (e.g. "012..1819")
     nums = [str(n) for n in range(20)]
     print "".join(nums)
-    
+
 **Best**
 
 .. code-block:: python
 
     # create a concatenated string from 0 to 19 (e.g. "012..1819")
     nums = map(str, range(20))
-    print "".join(nums) 
+    print "".join(nums)
 
 One final thing to mention about strings is that using ``join()`` is not always
 best. In the instances where you are creating a new string from a pre-determined
