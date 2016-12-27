@@ -1,12 +1,12 @@
-Structuring Your Project
-========================
+Estructurando tu Proyecto
+=========================
 
-By "structure" we mean the decisions you make concerning
-how your project best meets its objective. We need to consider how to
-best leverage Python's features to create clean, effective code.
-In practical terms, "structure" means making clean code whose logic and
-dependencies are clear as well as how the files and folders are organized
-in the filesystem.
+Por "estructura" queremos decir las desiciones que conciernen en
+como tu proyecto cumple sus objetivos.. Necesitamos considerar como
+aprovechar mejor los atributos de Python para crear código efectivo y limpio.
+En términos prácticos, "estructura" significa hacer código limpio con lógica y dependencia
+son limpias tan bien como los archivos y directorios estan organizados
+en el sistema de archivos.
 
 Which functions should go into which modules? How does data flow through
 the project? What features and functions can be grouped together and

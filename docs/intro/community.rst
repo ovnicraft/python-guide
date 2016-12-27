@@ -1,12 +1,12 @@
 .. _the-community:
 
-The Community
-=============
+La Comunidad
+============
 
 BDFL
 ----
 
-Guido van Rossum, the creator of Python, is often referred to as the BDFL — the
+Guido van Rossum, creador de Python, es a menudo referido como el BDFL — el
 Benevolent Dictator For Life.
 
 
@@ -14,9 +14,9 @@ Benevolent Dictator For Life.
 Python Software Foundation
 --------------------------
 
-The mission of the Python Software Foundation is to promote, protect, and
-advance the Python programming language, and to support and facilitate the
-growth of a diverse and international community of Python programmers.
+La misión de la Fundación de Software Python es promover, proteger, y
+mejorar el lenguaje de programación Python, y soportar y facilitar el crecimiento
+de las diversas e internacionales comunidades de programadores Python.
 
 `Learn More about the PSF <http://www.python.org/psf/>`_.
 
@@ -24,10 +24,10 @@ growth of a diverse and international community of Python programmers.
 PEPs
 ----
 
-PEPs are *Python Enhancement Proposals*. They describe changes to Python itself,
-or the standards around it.
+PEPs son *Python Enhancement Proposals* (Propuestas de mejora de Python). Describen cambiar Python,
+o los estandares alrededor del lenguaje en sí.
 
-There are three different types of PEPs (as defined by :pep:`1`):
+Hay diferentes tipos de PEPs (as defined by :pep:`1`):
 
     **Standards**
         Describes a new feature or implementation.

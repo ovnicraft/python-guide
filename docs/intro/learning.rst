@@ -1,19 +1,19 @@
-Learning Python
-===============
+Aprendiendo Python
+==================
 
-Beginner
---------
+Principiante
+------------
 
-The Python Tutorial
-~~~~~~~~~~~~~~~~~~~~
+Tutorial de Python
+~~~~~~~~~~~~~~~~~~~
 
-This is the official tutorial. It covers all the basics, and offers a tour of
-the language and the standard library. Recommended for those who need a
-quick-start guide to the language.
+Este es el tutorial oficial. Cubre todo lo básico, y ofrece un tour del
+lenguaje y la librería estadar. Recomendado para quieres necesitan una guía de inicio
+rápido al lenguaje.
 
-    `The Python Tutorial <http://docs.python.org/tutorial/index.html>`_
+    `El Tutorial de Python <http://docs.python.org/tutorial/index.html>`_
 
-Python for Beginners
+Python para Principiantes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 thepythonguru.com is a tutorial focuses on beginner programmers. It covers many python concepts
