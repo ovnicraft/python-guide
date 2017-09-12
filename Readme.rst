@@ -1,36 +1,35 @@
-Hitchhiker's Guide to Python
-============================
+Guía de Hitchhiker para Python
+==============================
 
-**Python Best Practices Guidebook**
+**Libro Guía de Mejores Prácticas de Python**
 
 .. image:: https://farm1.staticflickr.com/628/33173824932_58add34581_k_d.jpg
 
 -----------
 
-**Work in progress. If you'd like to help, please do. There's a lot of work to
-be done.**
+**Trabajo en progreso. Si deseas ayudar, por favor hazlo. Hay mucho trabajo
+por hacer.**
 
-This guide is currently under heavy development. This opinionated guide
-exists to provide both novice and expert Python developers a best practice
-handbook to the installation, configuration, and usage of Python on a daily
-basis.
+Esta guía esta bajo un fuerte desarrollo. Esta obstinada guía existe
+para proveer para ambos: novatos y expertos desarrolladores de Python un manual
+para instalación, configuración y uso de Python diariamente.
 
 
-Topics include:
+Temas incluidos:
 
-- Platform- and version-specific installations
+- Plataforma- y versiones específicas de instalaación
 - Py2app, Py2exe, bbfreeze, pyInstaller
 - Pip
 - Numpy, scipy, statpy, pyplot, matplotlib
 - Virtualenv
 - Fabric
-- Exhaustive module recommendations, grouped by topic/purpose
-- Which libraries to use for what
-- Server configurations & tools for various web frameworks
-- Documentation: writing it
-- Testing: Jenkins & tox guides
-- How to easily interface ``hg`` from ``git``
+- Exaustivas recomendaciones de módulos, agrupados por tema/propósito
+- Qué librerías usar y para qué
+- Configuración de servidores & herramientas para varios frameworks web
+- Documentación: escríbela
+- Testing: Jenkins & guía para tox
+- Cómo interactuar fácilmente de ``hg`` a ``git``
 
-If you aren't fond of reading reStructuredText, there is an
-almost up-to-date `HTML version at docs.python-guide.org
+Si no es aficionado a leer reStructuredText, hay una versión
+casi actualizada `en docs.python-guide.org
 <http://docs.python-guide.org>`_.
