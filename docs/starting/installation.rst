@@ -3,7 +3,7 @@ Properly Installing Python
 
 .. image:: https://farm5.staticflickr.com/4303/36137232412_fdcb0f84eb_k_d.jpg
 
-There's a good chance that you already have Python on your operating system.
+De seguro ya tienes Python en tu sistema operativo.
 
 Si es así, no necesitas instalar o configurar nada más para usar Python.
 Having said that, I would strongly recommend that you install the tools and

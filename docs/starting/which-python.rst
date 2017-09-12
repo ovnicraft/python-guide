@@ -39,7 +39,7 @@ Voy a ser franco:
   political statement and will alienate many of your users. This is not a problem — slowly, over the next three years, this will become less the case.
 
 Asi que.... 3?
-~~~~~~~~~
+~~~~~~~~~~~~~~
 
 If you're choosing a Python interpreter to use, I
 recommend you use the newest Python 3.x, since every version brings new and

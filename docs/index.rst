@@ -20,12 +20,9 @@ disponible aquí. Más bien, encontrarás una lista concisa de opciones altament
 recomendadas.
 
 
-.. note:: The use of **Python 3** is *highly* preferred over Python 2. Consider upgrading your applications and infrastructure if you find yourself *still* using Python 2 in production today. If you are using Python 3, congratulations — you are indeed a person of excellent taste.
+.. note:: El uso de **Python 3** es *altamente* preferido sobre Python 2. Considera actualizar tus aplicaciones e infraestructura si te encuentras *aún* usando Python 2 en producción. Si estas usando Python 3, felicitaciones — eres de hecho una persona de excelente gusto.
   —*Kenneth Reitz*
 
-Let's get started! But first, let's make sure you know where your towel is.
-=======
 Vamos a empezar! Pero primero, vamos a asegurarnos que sabes donde estas.
->>>>>>> 76c15da... translate to spanish srtp01
 
 .. include:: contents.rst.inc
