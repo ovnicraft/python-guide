@@ -1,90 +1,91 @@
-Introduction
+Introducción
 ============
 
 .. image:: https://farm5.staticflickr.com/4180/34725946825_0f85497e60_k_d.jpg
 
-From the `official Python website <http://python.org/about/>`_:
+Desde el `sitio web oficial de Python <http://python.org/about/>`_:
 
-Python is a general-purpose, high-level programming language similar
-to Tcl, Perl, Ruby, Scheme, or Java. Some of its main key features
-include:
+Python es un lenguaje de programación de propósito general y alto nivel similar
+a Tcl, Perl, Ruby, Scheme, o Java. Algunos de sus características principales
+incluye:
 
-* **very clear, readable syntax**
+* **muy limpio, sintáxis legible**
 
-  Python's philosophy focuses on readability, from code blocks
-  delineated with significant whitespace to intuitive keywords in
-  place of inscrutable punctuation.
+  La filosofía de Python se enfoca en legibilidad, desde bloques de código
+  delineados con espacios en blanco significativos para intuir palabras claves
+  en lugar de puntuación inescrutable.
 
-* **extensive standard libraries and third party modules for virtually
-  any task**
+* **librerías estandar extensas y módulos de terceros para prácticamente
+  cualquier tarea**
 
-  Python is sometimes described with the words "batteries included"
-  because of its extensive
-  `standard library <http://docs.python.org/library/>`_, which includes
-  modules for regular expressions, file IO, fraction handling,
-  object serialization, and much more.
+  Python a veces es descrito con las palabras "baterías incluídas"
+  por su extensa
+  `librería estandar <http://docs.python.org/library/>`_, que incluye
+  módulos para expresiones regulares, IO de archivos, manejo de fracciones,
+  serialización de objetos, y mucho más.
 
-  Additionally, the
-  `Python Package Index <http://pypi.python.org/pypi/>`_ is available
-  for users to submit their packages for widespread use, similar to
-  Perl's `CPAN <http://www.cpan.org>`_. There is a thriving community
-  of very powerful Python frameworks and tools like
-  the `Django <http://www.djangoproject.com>`_ web framework and the
-  `NumPy <http://numpy.scipy.org>`_ set of math routines.
+  Adicionalmente, el
+  `Indice de Paquetes Python <http://pypi.python.org/pypi/>`_ está disponible
+  para usuarios para publicar sus paquetes para uso extendido, similar a
+  Perl's `CPAN <http://www.cpan.org>`_. Hay una próspera comunidad
+  de muy fuertes frameworks de Python y herramientas como
+  el framework web `Django <http://www.djangoproject.com>`_ y
+  `NumPy <http://numpy.scipy.org>`_ conjunto de rutinas matemáticas.
 
-* **integration with other systems**
+* **integración con otros sistemas**
 
-  Python can integrate with `Java libraries <http://www.jython.org>`_,
-  enabling it to be used with the rich Java environment that corporate
-  programmers are used to. It can also be
-  `extended by C or C++ modules <http://docs.python.org/extending/>`_
-  when speed is of the essence.
+  Python puede integrar con `librerías Java <http://www.jython.org>`_,
+  activando para ser usado con el ambiente Java al que los programadores
+  corporativos están acostumbrados. También puede extenderse con
+  `módulos C o C++ <http://docs.python.org/extending/>`_
+  cuando la velocidad es la esencia.
 
-* **ubiquity on computers**
+* **omnipresencia en computadores**
 
-  Python is available on Windows, \*nix, and Mac. It runs wherever the
-  Java virtual machine runs, and the reference implementation CPython
-  can help bring Python to wherever there is a working C compiler.
+  Python está disponible en Windows, \*nix, y MacOS. Corre donde quiera
+  que la maquina virtual de Java corra, y la implementación de referencia CPython
+  puede ayudar a llevar a Python a donde quiera que este trabajando un compilador de C.
 
-* **friendly community**
+* **comunidad amigable**
 
-  Python has a vibrant and large :ref:`community <the-community>`
-  which maintains wikis, conferences, countless repositories,
-  mailing lists, IRC channels, and so much more. Heck, the Python
-  community is even helping to write this guide!
+  Python tiene una vibrante y larga :ref:`comunidad <the-community>`
+  que mantiene wikis, conferencias, incontables repositorios,
+  listas de correo, canales IRC, y mucho más. Diablos, la comunidad
+  de Python incluso ayudo a escribir esta guía!
 
 
 .. _about-ref:
 
-About This Guide
-----------------
+Acerca de Esta Guía
+-------------------
 
-Purpose
-~~~~~~~
+Propósito
+~~~~~~~~~
 
-The Hitchhiker's Guide to Python exists to provide both novice and expert
-Python developers a best practice handbook for the installation, configuration,
-and usage of Python on a daily basis.
+La Guía de Hitchhiker para Python existe para proporcionar tanto a novatos
+y expertos desarrolladores de Python un manual de las mejores prácticas para
+instalación, configuración, y uso de Python diariamente.
 
 
-By the Community
+Por la Comunidad
 ~~~~~~~~~~~~~~~~
 
-This guide is architected and maintained by `Kenneth Reitz
-<https://github.com/kennethreitz>`_ in an open fashion. This is a
-community-driven effort that serves one purpose: to serve the community.
+Esta guía es diseñada y mantenida por `Kenneth Reitz
+<https://github.com/kennethreitz>`_ de manera abierta. Esto es un
+esfuerzo comunitario que tiene un propósito: servir a la comunidad.
 
-For the Community
+Para la Comunidad
 ~~~~~~~~~~~~~~~~~
 
-All contributions to the Guide are welcome, from Pythonistas of all levels.
-If you think there's a gap in what the Guide covers, fork the Guide on
-GitHub and submit a pull request.
+Todas las contribuciones a la guía son bienvenidas, desde Pythonistas
+de todos los niveles. Si crees que hay una brecha en lo que cubre la Guía,
+crea un fork en Github y envía una solicitud de cambio.
 
-Contributions are welcome from everyone, whether they're an old hand or a
-first-time Pythonista, and the authors to the Guide will gladly help if you
-have any questions about the appropriateness, completeness, or accuracy of
-a contribution.
+Contribuciones son bienvenidas de todo el mundo, ya sea un veterano o
+Pythonista nuevo, y los autores de la Guía con mucho gusto te ayudarán si
+tienes algunas preguntas acerca de la adecuación, integridad, o exactitud
+de una contribución.
 
-To get started working on The Hitchhiker's Guide,
-see the :doc:`/notes/contribute` page.
+
+Para empezar a trabajar en la Guía de Hitchhiker,
+mira la página :doc:`/notes/contribute`.
