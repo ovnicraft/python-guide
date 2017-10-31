@@ -14,7 +14,7 @@ applications for real-world use. In particular, you should always install
 Setuptools, Pip, and Virtualenv — they make it much easier for you to use
 other third-party Python libraries.
 
-.. note:: The use of **Python 3** is *highly* preferred over Python 2. Consider upgrading your applications and infrastructure if you find yourself *still* using Python 2 in production today. If you are using Python 3, congratulations — you are indeed a person of excellent taste.
+.. note:: El uso de **Python 3** es *altamente* preferido sobre Python 2. Considera actualizar tus aplicaciones e infraestructura si te encuentras *aún* usando Python 2 en producción hoy. Si ya estas usando Python 3, felicitaciones — ya eres una persona con excelente gusto.
   —*Kenneth Reitz*
 
 
@@ -24,16 +24,16 @@ Guías de Instalación
 Esta guía trata sobre la correcta instalación de :ref:`Python <which-python>`
 para propósitos de desarrollo, tanto como instalación de setuptools, pip y virtualenv.
 
-  Python 3 Installation Guides
-  ////////////////////////////
+  Python 3 Guías de Instalación
+  /////////////////////////////
 
-- :ref:`Python 3 on MacOS <install3-osx>`.
-- :ref:`Python 3 on Windows <install3-windows>`.
-- :ref:`Python 3 on Linux <install3-linux>`.
+- :ref:`Python 3 en MacOS <install3-osx>`.
+- :ref:`Python 3 en Windows <install3-windows>`.
+- :ref:`Python 3 en Linux <install3-linux>`.
 
-Legacy Python 2 Installation Guides
-///////////////////////////////////
+Legacy Python 2 Guías de Instalación
+////////////////////////////////////
 
-- :ref:`Python 2 on MacOS <install-osx>`.
-- :ref:`Python 2 on Microsoft Windows <install-windows>`.
-- :ref:`Python 2 on Linux <install-linux>`.
+- :ref:`Python 2 en MacOS <install-osx>`.
+- :ref:`Python 2 en Microsoft Windows <install-windows>`.
+- :ref:`Python 2 en Linux <install-linux>`.
