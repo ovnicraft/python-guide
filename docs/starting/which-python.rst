@@ -1,5 +1,5 @@
-Picking an Python Interpreter (3 vs. 2)
-=======================================
+Eligiendo un Interprete Python (3 vs. 2)
+========================================
 
 .. image:: https://farm5.staticflickr.com/4265/34484834733_5b80f65ab1_k_d.jpg
 
@@ -15,46 +15,46 @@ podría pensar.
 
 La esencia básica de las cosas es la siguiente:
 
-1. Most production applications today use Python 2.7.
-2. Python 3 is ready for the production deployment of applications today.
-3. Python 2.7 will only receive necessary security updates until 2020 [#pep373_eol]_.
-4. The brand name "Python" encapsulates both Python 3 and Python 2.
+1. La mayoría de aplicación en producción de hoy usan Python 2.7.
+2. Python 3 está listo para despliegues en producción de aplicaciones de hoy en día.
+3. Python 2.7 sólo recibirá actualizaciones de seguridad necesarias hasta el 2020 [#pep373_eol]_.
+4. La marca "Python" encapsúla ambos Python 3 y Python 2.
 
 Recommendaciones
 ~~~~~~~~~~~~~~~~
 
 
-.. note:: The use of **Python 3** is *highly* preferred over Python 2. Consider upgrading your applications and infrastructure if you find yourself *still* using Python 2 in production today. If you are using Python 3, congratulations — you are indeed a person of excellent taste.
+.. note:: El uso de **Python 3** es *altamente* preferido sobre Python 2. Considera actualizar tus aplicaciones e infraestructura si *aún* te encuentras usando Python 2 en producción ahora. Si estás usando Python 3, felicitaciones — ya eres una persona con excelente gusto.
   —*Kenneth Reitz*
 
 Voy a ser franco:
 
-- Use Python 3 for new Python applications.
-- If you're learning Python for the first time, familiarizing yourself with Python 2.7 will be very
-  useful, but not more useful than learning Python 3.
-- Learn both. They are both "Python".
-- Software that is already built often depends on Python 2.7.
-- If you are writing a new open source Python library, it's best to write it for both Python 2 and 3
-  simultaneously. Only supporting Python 3 for a new library you want to be widely adopted is a
-  political statement and will alienate many of your users. This is not a problem — slowly, over the next three years, this will become less the case.
+- Usa Python 3 para nuevas aplicaciones Python.
+- Si estás aprendiendo Python por primera vez, familiarizarte con Python 2.7 será muy
+  útil, pero no más útil que aprender Python 3.
+- Aprende ambos. Ambos son "Python".
+- Software que ya esta creado a menudo depende de Python 2.7.
+- Si estas escribiendo una nueva librería open source de Python, lo mejor es escribirla para ambos Python 2 y 3
+  simultáneamente. Sólo soportar Python 3 para una nueva librería que deseas que sea ampliamente adoptada es una
+  desición política y alejará a muchos usuarios. Esto no es un problema — lentamente, durante los próximos tres años, estos casos serán menos.
 
 Asi que.... 3?
 ~~~~~~~~~~~~~~
 
-If you're choosing a Python interpreter to use, I
-recommend you use the newest Python 3.x, since every version brings new and
-improved standard library modules, security and bug fixes.
+Si esta eligiendo un interprete de Python para usar, Te
+recomiendo usar el Python 3.x más nuevo, ya que cada versión trae nuevos y
+mejorados módulos de la librería estandar, seguridad y correcciones de errores.
 
-Given such, only use Python 2 if you have a strong reason to, such as a
-pre-existing code-base, a Python 2 exclusive library, simplicity/familiarity,
-or, of course, you absolutely love and are inspired by Python 2. No harm in that.
+Dado esto, sólo usa Python 2 si tienes una fuerte razón para, tal como
+código base pre existente, una librería exclusiva de Python 2, simplicidad/familiaridad,
+o, de seguro, tu absolutamente lo amas y estás inspirado por Python 2. No hay daño en eso.
 
 Revisa `Puedo usar Python 3? <https://caniusepython3.com/>`_ para ver si el software
 del que dependes bloqueará tu adopción de Python 3.
 
 `Otras lecturas <http://wiki.python.org/moin/Python2orPython3>`_
 
-Es posible It is possible  `escribir código que funcionará en Python 2.6, 2.7, y Python 3
+Es posible `escribir código que funcionará en Python 2.6, 2.7, y Python 3
 <https://docs.python.org/3/howto/pyporting.html>`_. Estos
 rangos de trivial a difícil dependerá del tipo de software que estás
 escribiendo; si eres principiante hay cosas más importantes por las que preocuparse.

@@ -8,11 +8,11 @@ Instalando Python Correctamente
 Hay una buena oportunidad que ya tengas instalado Python en tu sistema operativo.
 
 Si es así, no necesitas instalar o configurar nada más para usar Python.
-Having said that, I would strongly recommend that you install the tools and
-libraries described in the guides below before you start building Python
-applications for real-world use. In particular, you should always install
-Setuptools, Pip, and Virtualenv — they make it much easier for you to use
-other third-party Python libraries.
+Dicho esto, te recomiendo que instales las herramientas y librerías
+descritas más abajo en la guía libraries antes de empezar a construir
+applicaciones Python para el uso en el mundo real. En particular, siempre debes instalar
+Setuptools, Pip, y Virtualenv — hacen más fácil para ti usar
+otras librerías Python de terceros.
 
 .. note:: El uso de **Python 3** es *altamente* preferido sobre Python 2. Considera actualizar tus aplicaciones e infraestructura si te encuentras *aún* usando Python 2 en producción hoy. Si ya estas usando Python 3, felicitaciones — ya eres una persona con excelente gusto.
   —*Kenneth Reitz*

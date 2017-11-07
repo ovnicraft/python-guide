@@ -22,7 +22,7 @@ Nuevo con Python? Vamos a configurar correctamente tu ambiente Python.
     starting/install/linux
 
 
-- Using Virtualenvs with Pipenv:
+- Usando Virtualenvs con Pipenv:
 
 .. toctree::
     :maxdepth: 2
@@ -30,11 +30,11 @@ Nuevo con Python? Vamos a configurar correctamente tu ambiente Python.
     dev/virtualenvs
 
 
-Python Development Environments
--------------------------------
+Ambientes de Desarrollo de Python
+---------------------------------
 
-This part of the guide focus on the Python development environment,
-and the best-practice tools that are available for writing Python code.
+Esta parte de la guía se enfoca en el ambiente de desarrollo de Python,
+y las mejoras prácticas que estan disponibles para escribir código Python.
 
 .. toctree::
    :maxdepth: 2

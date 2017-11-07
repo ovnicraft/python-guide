@@ -86,5 +86,5 @@ Para empezar a usarlo y ver más imformación: :ref:`Virtual Environments <virtu
 
 --------------------------------
 
-Esta página es una mezcla de `another guide <http://www.stuartellis.eu/articles/python-development-windows/>`_,
+Esta página es una mezcla de `otra guía <http://www.stuartellis.eu/articles/python-development-windows/>`_,
 que esta disponible bajo la misma licencia.

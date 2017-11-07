@@ -1,39 +1,39 @@
 .. _virtualenvironments-ref:
 
-Pipenv & Virtual Environments
-=============================
+Pipenv & Ambientes Virtuales
+============================
 
 .. image:: https://farm5.staticflickr.com/4290/35294660055_42c02b2316_k_d.jpg
 
-This tutorial walks you through installing and using Python packages.
+Este tutorial te llevará a traves de la instalación y uso de paquetes Python.
 
-It will show you how to install and use the necessary tools and make strong
-recommendations on best practices. Keep in mind that Python is used for a great
-many different purposes, and precisely how you want to manage your dependencies
-may change based on how you decide to publish your software. The guidance
-presented here is most directly applicable to the development and deployment of
-network services (including web applications), but is also very well suited to
-managing development and testing environments for any kind of project.
+Te va a mostrar como instalar y usar las herramientas necesarias y hacerte fuertes
+recomendaciones en las mejores prácticas. Ten en cuenta que Python es usado para grandes
+y diferentes propósitos, y precisamente cómo deseas manejar tus dependencias
+puede cambiar basado en como decides publicar tu software. La guía
+presentada está directamente aplicada al desarrollo y despliegue de
+servicios de red (incluyendo aplicaciones web), pero también esta muy adecuada para
+administrar ambientes de prueba y desarrollo para cualquier tipo de proyecto.
 
-.. Note:: This guide is written for Python 3, however, these instructions
-    should work fine on Python 2.7—if you are still using it, for some reason.
+.. Note:: Esta guía está escrita para Python 3, aunque, estas instrucciones
+    deberían trabajar bien en Python 2.7—si aún lo estas usando, por alguna razón.
 
 
-Make sure you've got Python & pip
+Asegúrate que tienes Python & pip
 ---------------------------------
 
-Before you go any further, make sure you have Python and that it's available
-from your command line. You can check this by simply running:
+Antes de ir más lejos, asegurate que tienes Python y que está disponible
+desde tu línea de comandos. Puedes revisar esto sólo ejecutando:
 
 .. code-block:: bash
 
     $ python --version
 
-You should get some output like ``3.6.2``. If you do not have Python, please
-install the latest 3.x version from `python.org`_ or refer to the
-`Installing Python`_ section of this guide.
+Debes obtener algún resultado como ``3.6.2``. Si no tienes Python, por favor
+instala la última versión desde `python.org`_ o refierete a la sección
+`Instalando Python`_ de esta guía.
 
-.. Note:: If you're newcomer and you get an error like this:
+.. Note:: Si eres novato y tienes un error como este:
 
     .. code-block:: python
 
@@ -42,21 +42,21 @@ install the latest 3.x version from `python.org`_ or refer to the
           File "<stdin>", line 1, in <module>
         NameError: name 'python' is not defined
 
-    It's because this command is intended to be run in a *shell* (also called
-    a *terminal* or *console*). See the Python for Beginners
-    `getting started tutorial`_ for an introduction to using your operating
-    system's shell and interacting with Python.
+    Es porque este comando esta tratando de ser ejecutado en una *shell* (también llamada
+    *terminal* o *consola*). Mira la sección Para Novatos
+    `getting started tutorial`_ para una introducción de cómo usar tu shell
+    del sistema operativo e interactuar con Python.
 
-Additionally, you'll need to make sure you have :ref:`pip` available. You can
-check this by running:
+Además, necesitarás asegurarte que tienes :ref:`pip` disponible. Puedes
+revisar esto ejecutando:
 
 .. code-block:: bash
 
     $ pip --version
 
-If you installed Python from source, with an installer from `python.org`_, or
-via `Homebrew`_ you should already have pip. If you're on Linux and installed
-using your OS package manager, you may have to `install pip <https://pip.pypa.io/en/stable/installing/>`_ separately.
+Si instalaste Python desde la fuente, con un instalador desde `python.org`_, o
+vía `Homebrew`_ ya deberías tener pip. Si estas usando Linux e instalaste
+usando tu manejador de paquetes del sistema operativo, talves tengas que `instalar pip <https://pip.pypa.io/en/stable/installing/>`_ por separado.
 
 .. _getting started tutorial: https://opentechschool.github.io/python-beginners/en/getting_started.html#what-is-python-exactly
 .. _python.org: https://python.org
@@ -64,16 +64,16 @@ using your OS package manager, you may have to `install pip <https://pip.pypa.io
 .. _Installing Python: http://docs.python-guide.org/en/latest/starting/installation/
 
 
-Installing Pipenv
+Instalando Pipenv
 -----------------
 
-:ref:`Pipenv` is a dependency manager for Python projects. If you're familiar
-with Node.js' `npm`_ or Ruby's `bundler`_, it is similar in spirit to those
-tools. While :ref:`pip` can install Python packages, Pipenv is recommended as
-it's a higher-level tool that simplifies dependency management for common use
-cases.
+:ref:`Pipenv` es un manejador de dependencias para proyectos Python. Si estas familiarizado
+con Node.js' `npm`_ o `bundler`_ de Ruby, es similiar en el espíritu de estas
+herramientas. Mientras :ref:`pip` puede instalar paquetes Python, Pipenv es recomendado como
+una herramienta de lato nivel que simplifica la gestión de dependencias como casos de uso
+común.
 
-Use ``pip`` to install Pipenv:
+Usa ``pip`` para instalar Pipenv:
 
 .. code-block:: python
 
@@ -107,7 +107,7 @@ Use ``pip`` to install Pipenv:
 .. _modifying ~/.profile: https://stackoverflow.com/a/14638025
 .. _Control Panel: https://msdn.microsoft.com/en-us/library/windows/desktop/bb776899(v=vs.85).aspx
 
-Installing packages for your project
+Instalando Paquetes para tu Proyecto
 ------------------------------------
 
 Pipenv manages dependencies on a per-project basis. To install packages,
@@ -155,8 +155,8 @@ when you share your project with others. You should get output similar to this
 .. _Requests: https://python-requests.org
 
 
-Using installed packages
-------------------------
+Usando Paquetes Instalados
+--------------------------
 
 Now that Requests is installed you can create a simple ``main.py`` file to
 use it:
@@ -186,15 +186,15 @@ your script. It's also possible to spawn a new shell that ensures all commands
 have access to your installed packages with ``$ pipenv shell``.
 
 
-Next steps
-----------
+Siguientes Pasos
+----------------
 
 Congratulations, you now know how to install and use Python packages! ✨ 🍰 ✨
 
 
 
-Lower level: virtualenv
-=======================
+Un nivel más bajo: virtualenv
+=============================
 
 `virtualenv <http://pypi.python.org/pypi/virtualenv>`_ is a tool to create
 isolated Python environments. virtualenv creates a folder which contains all the
@@ -214,8 +214,9 @@ Test your installation
 
    $ virtualenv --version
 
-Basic Usage
-~~~~~~~~~~~
+
+Uso Básico
+~~~~~~~~~~
 
 1. Create a virtual environment for a project:
 
@@ -280,7 +281,7 @@ After a while, though, you might end up with a lot of virtual environments
 littered across your system, and its possible you'll forget their names or
 where they were placed.
 
-Other Notes
+Otras Notas
 ~~~~~~~~~~~
 
 Running ``virtualenv`` with the option ``--no-site-packages`` will not
@@ -341,8 +342,8 @@ To install (make sure **virtualenv** is already installed):
 
 In Windows, the default path for WORKON_HOME is %USERPROFILE%\Envs
 
-Basic Usage
-~~~~~~~~~~~
+Uso Básico
+~~~~~~~~~~
 
 1. Create a virtual environment:
 
@@ -385,7 +386,7 @@ can quickly switch between environments.
 
    $ rmvirtualenv venv
 
-Other useful commands
+Otros comandos útiles
 ~~~~~~~~~~~~~~~~~~~~~
 
 ``lsvirtualenv``
